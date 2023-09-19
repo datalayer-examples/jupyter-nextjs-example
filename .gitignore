@@ -2,6 +2,7 @@ yarn.lock
 *.bundle.*
 lib/
 node_modules/
+out/
 *.egg-info/
 *.tsbuildinfo
 .*
