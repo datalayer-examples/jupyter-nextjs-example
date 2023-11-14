@@ -1,5 +1,5 @@
 {
-  "name": "@datalayer/jupyter-nextjs-example",
+  "name": "@datalayer-examples/jupyter-nextjs-example",
   "version": "0.1.0",
   "private": true,
   "packageManager": "yarn@3.5.0",
