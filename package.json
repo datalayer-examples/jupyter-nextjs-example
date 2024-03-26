@@ -10,7 +10,9 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@datalayer/icons-react": "0.2.4",
     "@datalayer/jupyter-react": "0.9.5",
+    "@datalayer/primer-addons": "0.2.3",
     "@types/node": "20.5.1",
     "@types/react": "18.2.20",
     "@types/react-dom": "18.2.7",
