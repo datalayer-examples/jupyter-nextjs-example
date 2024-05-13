@@ -27,6 +27,7 @@
     "eslint": "8.47.0",
     "eslint-config-next": "13.4.19",
     "postcss": "^8.4.28",
-    "raw-loader": "^4.0.2"
+    "raw-loader": "^4.0.2",
+    "svg-url-loader": "^7.1.1"
   }
 }
