@@ -1,6 +1,0 @@
-{
-  "installCommand": "yarn install",
-  "buildCommand": "yarn build",
-  "devCommand": "yarn dev --port $PORT",
-  "framework": "nextjs"
-}
