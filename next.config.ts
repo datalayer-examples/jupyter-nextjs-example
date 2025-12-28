@@ -25,8 +25,12 @@ const nextConfig = {
     config.resolve.alias = {
       ...config.resolve.alias,
       'json5': require.resolve('json5/lib/index.js'),
+      // Handle ~ prefix in CSS imports (JupyterLab style convention)
+      '~react-toastify': 'react-toastify',
+      '~@lumino': '@lumino',
+      '~@jupyterlab': '@jupyterlab',
     };
-    // Add a plugin to strip `~` from import paths
+    // Add a plugin to strip `~` from import paths (for JS imports)
     config.plugins.push(
       new webpack.NormalModuleReplacementPlugin(
         /^~(.*)/,

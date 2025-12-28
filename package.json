@@ -1,5 +1,5 @@
 {
-  "name": "@datalayer/jupyter-nextjs-example",
+  "name": "@datalayer-examples/jupyter-nextjs",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -10,9 +10,9 @@
     "postinstall": "patch-package"
   },
   "dependencies": {
-    "@datalayer/icons-react": "^1.0.0",
-    "@datalayer/jupyter-react": "^1.0.5",
-    "@datalayer/primer-addons": "^1.0.0",
+    "@datalayer/icons-react": "^1.0.7",
+    "@datalayer/jupyter-react": "^1.2.1",
+    "@datalayer/primer-addons": "^1.0.4",
     "next": "^15.4.1",
     "next-themes": "^0.4.6",
     "react": "^19.0.0",
@@ -26,6 +26,7 @@
     "@types/react-dom": "^19.0.0",
     "buffer": "^6.0.3",
     "patch-package": "^8.0.0",
+    "postcss-import": "^16.1.1",
     "tailwindcss": "^4",
     "typescript": "^5"
   }
